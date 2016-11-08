@@ -18,6 +18,8 @@ As an alternative, use our Gluu repository for Ubuntu Trusty (14.04):
 # apt-get install gluu-server-2.4.4
 ```
 
+Note: While manually entering the first command to edit gluu-repo.list, make sure to leave a space between /ubuntu/ and trusty main, to avoid errors and issues while downloading and installing gluu-server.
+
 ## Configuring Gluu Server
 After both the retrieval, and the installation of the Gluu Server
 software package start the Gluu Server, and login into the local chroot
